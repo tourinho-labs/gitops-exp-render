@@ -1,4 +1,4 @@
-# GENERATED pelo gitops-render a partir de tourinho-labs/exp-render@3d48745df57b18f747ee9a3187aa82b7a1461316 — NÃO EDITE.
+# GENERATED pelo gitops-render a partir de tourinho-labs/exp-render@b35cd740eeb161418d43d790f0b2b8d49a55364c — NÃO EDITE.
 # Mudanças manuais são sobrescritas no próximo render; a fonte da verdade
 # é o service.yaml do repo de aplicação.
 apiVersion: platform.lab/v1alpha1
@@ -10,4 +10,4 @@ spec:
   teamName: exp-render
   # Mesmo profile que dirige os resources do container (size-<profile> no
   # kustomization) -> aqui vira a ResourceQuota do namespace.
-  size: small
+  size: medium
