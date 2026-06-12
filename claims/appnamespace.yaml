@@ -1,3 +1,6 @@
+# GENERATED pelo gitops-render a partir de tourinho-labs/exp-render@3d48745df57b18f747ee9a3187aa82b7a1461316 — NÃO EDITE.
+# Mudanças manuais são sobrescritas no próximo render; a fonte da verdade
+# é o service.yaml do repo de aplicação.
 apiVersion: platform.lab/v1alpha1
 kind: AppNamespace
 metadata:
@@ -6,5 +9,5 @@ metadata:
 spec:
   teamName: exp-render
   # Mesmo profile que dirige os resources do container (size-<profile> no
-  # kustomization) → aqui vira a ResourceQuota do namespace.
+  # kustomization) -> aqui vira a ResourceQuota do namespace.
   size: small
